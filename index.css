@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+.container {
+  text-align: center;
+}
+
+#display {
+  width: 77vw;
+  font-size: 4rem;
+}
+
+
+.num {
+  background-color: #ccc;
+}
+.op {
+  background-color: dodgerBlue;
+}
+.clear {
+  background-color: orange;
+}
+.equal {
+  background-color: #90EE90;
+}
+
+button {
+  flex: 1;
+  width: 15vw;
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  letter-spacing: 1px;
+  font-family: Arial;
+  font-size: 3rem;
+  border-top: 0.1rem solid black;
+  border-left: 0.1rem solid black;
+  border-right: 0.1rem solid black;
+  border-bottom: 0.05rem solid black;
+  outline: none; 
+}
+
+input {
+  padding: 20px;
+  margin-top: 50px;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
